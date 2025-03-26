@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    background-color: aquamarine;
+}
+.parent{
+    width: 100%;
+    height: 400px;
+    margin:auto;
+    background: url(https://picsum.photos/id/200/200/300) center/cover no-repeat fixed;
+
+}
+.content{
+    width: 50%;
+    height: 80%;
+    float: left;
+    position: relative;
+    
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+}
+.titles{
+    width: 70%;
+    height: 70px;
+    float: left;
+    margin-left: 10px;
+    color: white;
+}
+p{
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    color: white;
+
+}
