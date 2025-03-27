@@ -30,19 +30,8 @@
     font-size: 20px;
     position: relative;  
 }
-.blog-ul{
-    /* position: relative; */
-    float:left;
-    display: inline;
-}
-.blog-ul li{
-    list-style-type: none;
-    display: block;
-    margin-left:20px;
-    text-transform: capitalize;
-    font-size: 20px;
-    /* position: absolute; */  
-}
+
+
 .home-icons{
     float: left;
     width:35%;
@@ -52,6 +41,18 @@
     height:30px;
     width:80%;
     border-radius: 10px;
+}
+.dropdown{
+    display: none;
+    position: relative;
+    
+   
+    z-index: 1;
+}
+.dropdown-ul{
+    color: black;
+    position: absolute;
+   
 }
 
 /* --------------------------------------------Section home------------------------- */

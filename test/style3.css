@@ -1,0 +1,26 @@
+
+.blog{
+    position: relative;
+    margin: auto;
+    background-color: rgb(187, 187, 214);
+    width: 100px;
+    text-align: center;
+  
+}
+.blog ul{
+    list-style: none;
+    position: absolute;
+    
+    text-align: center;
+    
+    
+    background-color: aqua;
+    visibility: hidden;
+   
+    width:100px;
+    
+}
+.blog:hover ul{
+    visibility: visible;
+    cursor: pointer;
+}
