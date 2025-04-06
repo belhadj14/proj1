@@ -791,3 +791,14 @@
     color:rgba(27, 4, 94, 0.959);
     font-weight: bolder;
 }
+.footer{   
+    width:100%;
+    height: 50vh;
+    background-color: #8c97a7;
+    text-align: center;
+    padding-top: 2%;
+}
+.footer-ul li{
+    display: inline;
+    
+}
